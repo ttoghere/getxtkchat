@@ -50,20 +50,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCZtNo4BVNennZ6FL5BD45R1TYYUsA_5kQ',
-    appId: '1:548477063928:android:a17e37ef263b3d82f6610d',
-    messagingSenderId: '548477063928',
-    projectId: 'tkchat-d88a7',
-    storageBucket: 'tkchat-d88a7.appspot.com',
+    apiKey: 'AIzaSyB__cMvea5wireVUdeqVaASbnjo1dq0W60',
+    appId: '1:940034432273:android:922da84b21e698040180b0',
+    messagingSenderId: '940034432273',
+    projectId: 'tkchatv1',
+    storageBucket: 'tkchatv1.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyB4tnSCbYTOn7vlF38qy0QAMtN-BX-B3Zk',
-    appId: '1:548477063928:ios:2cbd6d6d5204b774f6610d',
-    messagingSenderId: '548477063928',
-    projectId: 'tkchat-d88a7',
-    storageBucket: 'tkchat-d88a7.appspot.com',
-    iosClientId: '548477063928-j0o911rosr2rr5tevs8b0qhme9vr4rok.apps.googleusercontent.com',
+    apiKey: 'AIzaSyDOx3MoK361g5wRUjA2TqhIKfJ8tisfqoE',
+    appId: '1:940034432273:ios:5a870bcd7243c6bf0180b0',
+    messagingSenderId: '940034432273',
+    projectId: 'tkchatv1',
+    storageBucket: 'tkchatv1.appspot.com',
+    iosClientId: '940034432273-5l6v086ophuv93l1reblgt697tetr1r5.apps.googleusercontent.com',
     iosBundleId: 'site.tunckankilic.getxtkchat',
   );
 }

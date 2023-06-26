@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "548477063928",
-    "project_id": "tkchat-d88a7",
-    "storage_bucket": "tkchat-d88a7.appspot.com"
+    "project_number": "940034432273",
+    "project_id": "tkchatv1",
+    "storage_bucket": "tkchatv1.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:548477063928:android:a17e37ef263b3d82f6610d",
+        "mobilesdk_app_id": "1:940034432273:android:922da84b21e698040180b0",
         "android_client_info": {
           "package_name": "site.tunckankilic.getxtkchat"
         }
       },
       "oauth_client": [
         {
-          "client_id": "548477063928-0c8be48tqt96uquonupnpi70c3cvu3ag.apps.googleusercontent.com",
+          "client_id": "940034432273-ooisk9eh91rtpa0h4drpqqi65ekg5iud.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCZtNo4BVNennZ6FL5BD45R1TYYUsA_5kQ"
+          "current_key": "AIzaSyB__cMvea5wireVUdeqVaASbnjo1dq0W60"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "548477063928-0c8be48tqt96uquonupnpi70c3cvu3ag.apps.googleusercontent.com",
+              "client_id": "940034432273-0cquuddnkit0hmqi3p9j99ltf6s9sn7k.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

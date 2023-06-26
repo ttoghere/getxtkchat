@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>548477063928-j0o911rosr2rr5tevs8b0qhme9vr4rok.apps.googleusercontent.com</string>
+	<string>940034432273-5l6v086ophuv93l1reblgt697tetr1r5.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.548477063928-j0o911rosr2rr5tevs8b0qhme9vr4rok</string>
+	<string>com.googleusercontent.apps.940034432273-5l6v086ophuv93l1reblgt697tetr1r5</string>
 	<key>API_KEY</key>
-	<string>AIzaSyB4tnSCbYTOn7vlF38qy0QAMtN-BX-B3Zk</string>
+	<string>AIzaSyDOx3MoK361g5wRUjA2TqhIKfJ8tisfqoE</string>
 	<key>GCM_SENDER_ID</key>
-	<string>548477063928</string>
+	<string>940034432273</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>site.tunckankilic.getxtkchat</string>
 	<key>PROJECT_ID</key>
-	<string>tkchat-d88a7</string>
+	<string>tkchatv1</string>
 	<key>STORAGE_BUCKET</key>
-	<string>tkchat-d88a7.appspot.com</string>
+	<string>tkchatv1.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:548477063928:ios:2cbd6d6d5204b774f6610d</string>
+	<string>1:940034432273:ios:5a870bcd7243c6bf0180b0</string>
 </dict>
 </plist>
