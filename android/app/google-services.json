@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "940034432273-pstjtsi09mm1m5fsdjj0de9p1pnft7vt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "site.tunckankilic.getxtkchat",
+            "certificate_hash": "797ed72f498b72cfcf730e9678d721f3bef239dd"
+          }
+        },
+        {
           "client_id": "940034432273-ooisk9eh91rtpa0h4drpqqi65ekg5iud.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,6 +37,13 @@
             {
               "client_id": "940034432273-0cquuddnkit0hmqi3p9j99ltf6s9sn7k.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "940034432273-5l6v086ophuv93l1reblgt697tetr1r5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "site.tunckankilic.getxtkchat"
+              }
             }
           ]
         }

@@ -6,7 +6,6 @@ import 'package:pull_to_refresh/pull_to_refresh.dart';
 import 'package:getxtkchat/common/common.dart';
 import 'package:getxtkchat/common/utils/http.dart';
 import 'package:getxtkchat/pages/message/state.dart';
-import 'package:location/location.dart';
 
 class MessageController extends GetxController {
   final state = MessageState();
@@ -43,48 +42,48 @@ class MessageController extends GetxController {
     }
   }
 
-//Maps API for IOS
-//
-//Maps API for android
-  getUserLocation() async {
-    try {
-      final location = await Location().getLocation();
-      log("location 1");
-      String address = "${location.latitude}, ${location.longitude}]";
-      log("address: $address");
-      String url =
-          "https://maps.googleapis.com/maps/api/geocode/json?address=${address}&key=$mapsAndroid";
-      var response = await HttpUtil().get(url);
-      log("location 2");
+// //Maps API for IOS
+// //
+// //Maps API for android
+//   getUserLocation() async {
+//     try {
+//       final location = await Location().getLocation();
+//       log("location 1");
+//       String address = "${location.latitude}, ${location.longitude}]";
+//       log("address: $address");
+//       String url =
+//           "https://maps.googleapis.com/maps/api/geocode/json?address=${address}&key=$mapsAndroid";
+//       var response = await HttpUtil().get(url);
+//       log("location 2");
 
-      MyLocation location_res = MyLocation.fromJson(response);
-      log("location 3");
+//       MyLocation location_res = MyLocation.fromJson(response);
+//       log("location 3");
 
-      if (location_res.status == "OK") {
-        String? myAddress = location_res.results?.first.formattedAddress;
-        log("location 4");
+//       if (location_res.status == "OK") {
+//         String? myAddress = location_res.results?.first.formattedAddress;
+//         log("location 4");
 
-        if (myAddress != null) {
-          log("location 5");
+//         if (myAddress != null) {
+//           log("location 5");
 
-          var user_location =
-              await db.collection("users").where("id", isEqualTo: token).get();
-          if (user_location.docs.isNotEmpty) {
-            log("location 6");
+//           var user_location =
+//               await db.collection("users").where("id", isEqualTo: token).get();
+//           if (user_location.docs.isNotEmpty) {
+//             log("location 6");
 
-            var doc_id = user_location.docs.first.id;
-            await db
-                .collection("users")
-                .doc(doc_id)
-                .update({"location": myAddress});
-            log("location 7");
-          }
-        }
-      }
-    } catch (e) {
-      log("Error: $e");
-    }
-  }
+//             var doc_id = user_location.docs.first.id;
+//             await db
+//                 .collection("users")
+//                 .doc(doc_id)
+//                 .update({"location": myAddress});
+//             log("location 7");
+//           }
+//         }
+//       }
+//     } catch (e) {
+//       log("Error: $e");
+//     }
+//   }
 
   getFcmToken() async {
     final fcmToken = await FirebaseMessaging.instance.getToken();
@@ -116,7 +115,7 @@ class MessageController extends GetxController {
 
   @override
   void onReady() {
-    getUserLocation();
+    // getUserLocation();
     getFcmToken();
     super.onReady();
   }
