@@ -64,29 +64,5 @@ class AppPages {
       page: () => const MessagePage(),
     )
 
-    /*
-
-
-    // check if needed to login or not
-    GetPage(
-      name: AppRoutes.Application,
-      page: () => ApplicationPage(),
-      binding: ApplicationBinding(),
-      middlewares: [
-        RouteAuthMiddleware(priority: 1),
-      ],
-    ),
-
-    // 最新路由
-    // 首页
-    GetPage(name: AppRoutes.Contact, page: () => ContactPage(), binding: ContactBinding()),
-    //消息
-    GetPage(name: AppRoutes.Message, page: () => MessagePage(), binding: MessageBinding()),
-    //我的
-
-    //聊天详情
-    GetPage(name: AppRoutes.Chat, page: () => ChatPage(), binding: ChatBinding()),
-
-    */
   ];
 }

@@ -80,7 +80,7 @@ class SignInPage extends GetView<SignInController> {
   Widget _buildThirdPartyLogin() {
     return Container(
       margin: EdgeInsets.only(
-        bottom: 170.w,
+        bottom: 250.w,
       ),
       width: 295.w,
       child: Column(
@@ -102,13 +102,26 @@ class SignInPage extends GetView<SignInController> {
             ),
             child: btnFlatButtonWidget(
               onPressed: () {
-                controller.handleSignIn();
+                controller.handleSignIn("google");
               },
               width: 200.w,
               height: 55.h,
               title: "Google Login",
             ),
           ),
+          // Padding(
+          //   padding: EdgeInsets.only(
+          //     top: 30.h,
+          //     left: 50.w,
+          //     right: 50.w,
+          //   ),
+          //   child: btnFlatButtonWidget(
+          //     onPressed: () {},
+          //     width: 200.w,
+          //     height: 55.h,
+          //     title: "Facebook Login",
+          //   ),
+          // ),
           Padding(
             padding: EdgeInsets.only(
               top: 30.h,
@@ -116,20 +129,9 @@ class SignInPage extends GetView<SignInController> {
               right: 50.w,
             ),
             child: btnFlatButtonWidget(
-              onPressed: () {},
-              width: 200.w,
-              height: 55.h,
-              title: "Facebook Login",
-            ),
-          ),
-          Padding(
-            padding: EdgeInsets.only(
-              top: 30.h,
-              left: 50.w,
-              right: 50.w,
-            ),
-            child: btnFlatButtonWidget(
-              onPressed: () {},
+              onPressed: () {
+                controller.handleSignIn("apple");
+              },
               width: 200.w,
               height: 55.h,
               title: "Apple Login",

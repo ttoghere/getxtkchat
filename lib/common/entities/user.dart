@@ -50,18 +50,20 @@ class UserData {
   }
 }
 
-// 登录返回
 class UserLoginResponseEntity {
   String? accessToken;
   String? displayName;
   String? email;
   String? photoUrl;
+    String? type;
+
 
   UserLoginResponseEntity({
     this.accessToken,
     this.displayName,
     this.email,
     this.photoUrl,
+    this.type,
   });
 
   factory UserLoginResponseEntity.fromJson(Map<String, dynamic> json) =>
@@ -70,6 +72,7 @@ class UserLoginResponseEntity {
         displayName: json["display_name"],
         email: json["email"],
         photoUrl: json["photoUrl"],
+        type: json["type"],
       );
 
   Map<String, dynamic> toJson() => {
@@ -77,6 +80,7 @@ class UserLoginResponseEntity {
         "display_name": displayName,
         "email": email,
         "photoUrl": photoUrl,
+        "type":type,
       };
 }
 

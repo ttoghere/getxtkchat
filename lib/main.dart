@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: 'TKChat',
           theme: ThemeData(
-            // useMaterial3: true,
+            useMaterial3: true,
             primarySwatch: Colors.red,
           ),
           //MaterialApp --> routes
